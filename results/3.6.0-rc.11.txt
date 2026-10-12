@@ -1,0 +1,19 @@
+compiled with @vue/compiler-sfc 3.6.0-rc.11
+[Vue warn]: <TransitionGroup> children must be keyed. 
+  at <TransitionGroup name="t" > 
+  at <List> 
+  at <App>
+vue 3.6.0-rc.11
+SSR: <section><ol><!--[--><!--[--><!--[--><li>1</li><li>2</li><li>3</li><!--]--><!--]--><!--]--></ol></section>
+node v24.19.0 · Chrome/155.0.8059.40
+console:
+[info] You are running a development build of Vue.
+Make sure to use the production build (*.prod.js) when deploying for production.
+[warning] [Vue warn]: Hydration children mismatch on ol 
+Server rendered element contains more child nodes than client nodes. 
+  at <VaporTransitionGroup appear=false persisted=false onBeforeEnter=undefined  ... > 
+  at <List > 
+  at <App >
+[error] Hydration completed but contains mismatches.
+DOM after mount: <section><ol><!--[--><!--[--><!--[--><li>1</li><li>2</li><li>3</li><!--]--><!--]--></ol></section><!--dynamic-component-->
+VERDICT: hydration mismatch
